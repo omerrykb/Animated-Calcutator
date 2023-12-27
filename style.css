@@ -35,11 +35,12 @@ body {
 table {
     background: rgb(9, 9, 9);
     border-radius: 20px;
+    padding: 1rem;
 }
 
 .btn,
 #screen {
-    padding: 2.7rem;
+    padding: 2.5rem;
     text-align: center;
     transition: background .1s;
 }
