@@ -1,0 +1,202 @@
+body {
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgImg {
+    background-image: url(black-numbers-background_b4eu7wk3_thumbnail-180_01.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.bgBlackTheme {
+    background: rgba(0, 0, 0, 0.880);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.calculatorParent {
+    position: relative;
+    display: grid;
+    place-content: center;
+    opacity: .945;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table {
+    background: rgb(9, 9, 9);
+    border-radius: 20px;
+}
+
+.btn,
+#screen {
+    padding: 2.7rem;
+    text-align: center;
+    transition: background .1s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(14, 14, 14);
+}
+
+#screen {
+    font-size: 25px;
+    text-align: right;
+}
+
+#screen:hover {
+    background: fixed;
+}
+
+.opt {
+    color: orangered;
+}
+
+.numbers {
+    font-size: 18px;
+}
+
+.numbers:hover {
+    border-radius: 100%;
+}
+
+#esittir {
+    padding: 2.7rem;
+    text-align: center;
+    transition: background .1s;
+    text-align: center;
+    font-size: 25px
+}
+
+#esittir:hover {
+    background: rgb(39, 13, 0);
+    border-radius: 0 0;
+}
+
+
+/* media Screen */
+
+@media screen and (max-width:510px) {
+    .btn {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .btn {
+        padding: 1rem;
+    }
+}
+
+/* keyframes */
+
+
+@keyframes tıklamaAnimasyonu {
+    0% {
+        font-size: 20px;
+    }
+
+    100% {}
+}
+
+
+@keyframes PaydaAnimasyonu {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: inherit;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@keyframes TabloAnimasyonu {
+    0% {
+        border-top: 3px solid green;
+        border-left: 3px solid blue;
+        border-bottom: 3px solid yellow;
+        border-right: 3px solid red;
+    }
+
+    25% {
+        border-top: 3px solid red;
+        border-left: 3px solid green;
+        border-bottom: 3px solid blue;
+        border-right: 3px solid yellow;
+    }
+
+    50% {
+        border-top: 3px solid yellow;
+        border-left: 3px solid red;
+        border-bottom: 3px solid green;
+        border-right: 3px solid blue;
+    }
+
+    75% {
+        border-top: 3px solid blue;
+        border-left: 3px solid yellow;
+        border-bottom: 3px solid red;
+        border-right: 3px solid green;
+    }
+
+    100% {
+        border-top: 3px solid green;
+        border-left: 3px solid blue;
+        border-bottom: 3px solid yellow;
+        border-right: 3px solid red;
+    }
+}
+
+
+@keyframes PaydaAnimasyonuTablo {
+    0% {
+        border-top: 3px solid green;
+        border-left: 3px solid blue;
+        border-bottom: 3px solid yellow;
+        border-right: 3px solid red;
+    }
+
+    25% {
+        border-top: 3px solid red;
+        border-left: 3px solid green;
+        border-bottom: 3px solid blue;
+        border-right: 3px solid yellow;
+    }
+
+    50% {
+        border-top: 3px solid yellow;
+        border-left: 3px solid red;
+        border-bottom: 3px solid green;
+        border-right: 3px solid blue;
+    }
+
+    75% {
+        border-top: 3px solid blue;
+        border-left: 3px solid yellow;
+        border-bottom: 3px solid red;
+        border-right: 3px solid green;
+    }
+
+    100% {
+        border-top: 3px solid green;
+        border-left: 3px solid blue;
+        border-bottom: 3px solid yellow;
+        border-right: 3px solid red;
+    }
+}
+
+/* // */
